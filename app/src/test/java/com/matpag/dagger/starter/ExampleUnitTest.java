@@ -1,8 +1,8 @@
-package com.matpag.dagger_base_test;
+package com.matpag.dagger.starter;
 
-import org.junit.Test;
-
-import static org.junit.Assert.*;
+//import org.junit.Test;
+//
+//import static org.junit.Assert.*;
 
 /**
  * Example local unit test, which will execute on the development machine (host).
