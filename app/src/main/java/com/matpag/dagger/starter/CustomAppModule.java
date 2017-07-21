@@ -7,6 +7,7 @@ import dagger.Provides;
 
 @Module
 class CustomAppModule {
+
     @Singleton
     @Provides
     String provideString(){

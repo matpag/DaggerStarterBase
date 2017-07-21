@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
 
+import javax.inject.Inject;
+
 import dagger.android.AndroidInjection;
 
 /**
@@ -17,6 +19,9 @@ import dagger.android.AndroidInjection;
 public class BaseActivity extends AppCompatActivity {
 
     private Toolbar mToolbar;
+
+//    @Inject
+//    NavigationController navigationController;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -38,4 +43,8 @@ public class BaseActivity extends AppCompatActivity {
             }
         }
     }
+//
+//    public NavigationController getNavController(){
+//        return navigationController;
+//    }
 }
