@@ -20,9 +20,6 @@ public class BaseActivity extends AppCompatActivity {
 
     private Toolbar mToolbar;
 
-//    @Inject
-//    NavigationController navigationController;
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         AndroidInjection.inject(this);
@@ -43,8 +40,4 @@ public class BaseActivity extends AppCompatActivity {
             }
         }
     }
-//
-//    public NavigationController getNavController(){
-//        return navigationController;
-//    }
 }

@@ -8,7 +8,7 @@ import com.matpag.dagger.starter.main.MainActivity;
 import javax.inject.Inject;
 
 /**
- * A utility class that handles navigation in {@link BaseActivity}.
+ * A utility class that handles navigation in {@link MainActivity}.
  */
 public class NavigationController {
     private final int containerId;
