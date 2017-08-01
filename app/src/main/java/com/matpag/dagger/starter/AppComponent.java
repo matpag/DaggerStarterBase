@@ -14,6 +14,6 @@ import dagger.android.AndroidInjector;
 @Component(modules = {
         AndroidInjectionModule.class,
         ActivityModule.class,
-        CustomAppModule.class
+        AppModule.class
 })
-public interface CustomAppComponent extends AndroidInjector<CustomApp> {}
+public interface AppComponent extends AndroidInjector<App> {}

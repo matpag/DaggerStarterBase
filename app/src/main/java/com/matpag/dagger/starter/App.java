@@ -7,10 +7,10 @@ import dagger.android.DaggerApplication;
  * Created by Mattia Pagini on 11/06/2017.
  */
 
-public class CustomApp extends DaggerApplication {
+public class App extends DaggerApplication {
 
     @Override
     protected AndroidInjector<? extends DaggerApplication> applicationInjector() {
-        return DaggerCustomAppComponent.create();
+        return DaggerAppComponent.create();
     }
 }

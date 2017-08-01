@@ -6,7 +6,7 @@ import dagger.Module;
 import dagger.Provides;
 
 @Module
-class CustomAppModule {
+class AppModule {
 
     @Singleton
     @Provides
